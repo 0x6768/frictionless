@@ -51,43 +51,10 @@ pnpm dev
 pnpm build
 ```
 
-## 📁 项目结构
+## 部署 到 Netlify (推荐)
 
-```
-src/
-├── pages/           # 所有页面（文件即路由）
-│   ├── tools/       # 工具页面
-│   │   ├── cloudflare-dns-batch-delete.vue
-│   │   ├── duckduckgo-email.vue
-│   │   └── unix-chmod.vue
-│   ├── index.vue    # 首页
-│   └── about.vue    # 关于页
-├── assets/          # 静态资源
-│   ├── base.css     # 基础样式
-│   └── main.css     # 全局样式
-└── main.js          # 应用入口
-```
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/0x6768/frictionless)
 
-## 🧩 添加新工具
-
-1. 在 `src/pages/tools/` 创建 `.vue` 文件，如 `new-tool.vue`
-2. 自动路由到 `/tools/new-tool`
-3. 工具会在首页自动列出（或手动添加到导航）
-
-```vue
-<template>
-  <!-- 你的工具界面 -->
-</template>
-
-<script setup>
-// 纯 JavaScript，无 TypeScript
-// 保持逻辑简洁专注
-</script>
-
-<style scoped>
-/* 组件样式 */
-</style>
-```
 
 ## 🤔 为什么选择这个技术栈？
 
@@ -116,5 +83,4 @@ MIT © LICENSE 文件
 
 ## 🌟 Star 历史
 
-
-[![Vue Star History Chart](https://api.star-history.com/svg?repos=0x6768/frictionless&type=Date)](ttps://star-history.com/#yourname/frictionless&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=0x6768/frictionless&type=date&logscale&legend=top-left)](https://www.star-history.com/#0x6768/frictionless&type=date&logscale&legend=top-left)

@@ -4,10 +4,6 @@
   # 使用更快的构建镜像
   # image = "node:18-alpine"
 
-[build.environment]
-  NODE_VERSION = "18"
-  NPM_VERSION = "9"
-
 # 处理 SPA 路由 - 最重要的部分！
 [[redirects]]
   from = "/*"
@@ -15,6 +11,6 @@
   status = 200
 
 [[headers]]
-  for = "/assets/*"
+  for = "/_vue/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
