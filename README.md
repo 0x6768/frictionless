@@ -25,11 +25,11 @@
 ## 🛠️ 工具列表
 
 ### 🌐 网络工具
-- https://tools.frictionless.cc/tools/cloudflare-dns-batch-delete - 批量管理 Cloudflare DNS 记录
-- https://tools.frictionless.cc/tools/duckduckgo-email - 快速生成匿名邮箱
+- https://tools.7003410.xyz/tools/cloudflare-dns-batch-delete - 批量管理 Cloudflare DNS 记录
+- https://tools.7003410.xyz/tools/duckduckgo-email - 快速生成匿名邮箱
 
 ### 💻 开发工具
-- https://tools.frictionless.cc/tools/unix-chmod - 八进制与符号权限互转
+- https://tools.7003410.xyz/tools/unix-chmod - 八进制与符号权限互转
 - #
 
 ---
